@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Portal - Layout</title>
+<style>
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+p {
+    padding: 10px;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+#header {
+    float: left;
+    height: 75px;
+    width: 1000px;
+    background: #FF6633;
+}
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 700px;
+}
+#leftcolumn {
+    background: #33CCFF;
+    width: 150px;
+    float: left;
+}
+#rightcolumn {
+    background: #CC33FF;
+    width: 150px;
+    float: left;
+}
+#footer {
+    height: 40px;
+    width: 1000px;
+    background: #33FF66;
+    clear: both;
+}
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <p>This is the Header</p>
+        </div>
+        <div id="leftcolumn">
+            <p>Lorem ipsum dolor ...</p>
+        </div>
+        <div id="content">
+           <p>Lorem ipsum dolor ... </p>
+       </div>
+        <div id="rightcolumn">
+            <p>Lorem ipsum dolor ... </p>
+        </div>
+        <div id="footer">
+            <p>This is the Footer</p>
+        </div>
+    </div>
+</body>
+</html>
