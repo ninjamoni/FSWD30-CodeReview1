@@ -1,6 +1,6 @@
-#wrapper {
-	margin: 0px;
-	width:  100%;
+*	{
+	width: auto;
+	 	
 }
 
 
@@ -51,7 +51,7 @@
 	font-weight: bold;
 	background-color: #868686;
 	display: inline;
-	
+
 
 }
 
@@ -80,7 +80,60 @@ li{
 }
 
 
-#content {
+
+#img1 {
+	width: 45%;
+	float: left;
+}
+#img2 {
+	width: 45%;
+	float: right;
+	
+}
+#img3 {
+	width: 45%;
+	float: left;
+	
+}
+#img4 {
+	width: 45%;
+	float: right;
+} 
+
+
+
+#figc1 {
+	float: left;
+}
+#figc2 {
+	float: right;
+}
+#figc3 {
+	float: left;
+}
+#figc4 {
+	float: right;
+}
+
+
+
+.foot {
+	font-style: Arial;
+	font-size:  14px;
+	margin-left: 120px;
+	
+	
+}
+
+
+.footerarr {
+	width: 100%;
+	background-color: #868686;
+	clear: both;
+	height: 60px;
+}
+
+#maincontent {
 
 }
 
