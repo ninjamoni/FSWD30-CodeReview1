@@ -1,12 +1,12 @@
 *	{
-	width: auto;
+	width: 100%
 	 	
 }
 
 
 #header {
 	width: 100%;
-	height: 100px;
+	height: 120px;
 	padding-top: 10px; 
 	padding-left: 0px;
 	background-color: #CD5C5C;
@@ -20,146 +20,96 @@
 	margin-left: 1px;
 	margin-top: 5px;
 	padding-top: 10px;
+	width: 15%;
 }
 
 
 #name {
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	letter-spacing: 0,5px;
-	word-spacing: 1px;
+	word-spacing: 2px;
 	padding-top: 5px;
 	
 }
 
 
-#navmenu {
-	display: inline-block;
+nav {
 	width: 100%;
+	height: 50px;
 	background-color: #868686;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top:20px;
+	padding-left: 20px;
+	word-spacing: 10px;
+	padding-right: 10px;
+	margin-right: 20px;
 }
 
 
 .navigation a{
-	width: 100%;
+	padding-top: 20px;
 	text-decoration: none;
 	color:  white;
 	font-family: Arial;
 	font-size: 16px;
 	font-weight: bold;
-	background-color: #868686;
 	display: inline;
-
-
-}
-
-#menubar {
-	background-color: gray;
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-
-
-}
-
-li{
-	text-decoration: none;
-	display: inline;
-	word-spacing: 5px;
-	background-color: gray;
 	width: 100%;
-	color: white;
-	padding-right: 10px;
-	padding-left: 10px;
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: bold;
-
 }
 
 
+section {
+	width: 100%;
+}
 
-#img1 {
-	width: 45%;
+
+article {
+	width: 50%;
 	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
-#img2 {
-	width: 45%;
-	float: right;
+#img1{
+	width: 95%;
 	
 }
+#img2 {
+	width: 113%;
+	
+}
+
 #img3 {
-	width: 45%;
-	float: left;
+	width: 92%;
+
 	
 }
 #img4 {
-	width: 45%;
-	float: right;
-} 
-
-
-
-#figc1 {
-	float: left;
-}
-#figc2 {
-	float: right;
-}
-#figc3 {
-	float: left;
-}
-#figc4 {
-	float: right;
-}
-
-
-
-.foot {
-	font-style: Arial;
-	font-size:  14px;
-	margin-left: 120px;
-	
+	width: 104%;
 	
 }
 
+.clear {
+	clear: both
+}
 
-.footerarr {
+
+footer {
 	width: 100%;
 	background-color: #868686;
-	clear: both;
-	height: 60px;
-}
-
-#maincontent {
-
-}
-
-
-#leftcolumnup {
-
+	font-style: Arial;
+	font-size:  18;
+	margin-left: 130x;
+	padding-top: 10px;
+	text-align: center;
+	height: 60px;	
 }
 
 
-#rightcolumnup {
-
-}
 
 
-#leftcolumdown {
-
-}
-
-
-#rightcolumndown {
-
-}
-
-.imgup{
-
-}
-
-
-.imgdown
